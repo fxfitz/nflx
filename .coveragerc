@@ -1,0 +1,8 @@
+[run]
+branch = True
+source =
+    nflx
+
+[paths]
+source =
+    nflx
