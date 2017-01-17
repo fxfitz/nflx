@@ -9,5 +9,5 @@ import nflx.arrays
     ([1, 2, 3, 4, 5], [], ([], [1, 2, 3, 4, 5])),  # test only subtractions
     ([3, 1, 2], [5, 2], ([5], [1, 3])),  # test ordering
 ])
-def test_array_diff(current, target, expected):
-    assert nflx.arrays.diff(current, target) == expected
+def test_array_diff_v1(current, target, expected):
+    assert nflx.arrays.diff_v1(current, target) == expected

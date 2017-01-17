@@ -1,4 +1,4 @@
-def diff(current, target):
+def diff_v1(current, target):
     additions = [x for x in target if x not in current]
     subtractions = [x for x in current if x not in target]
 
